@@ -1,0 +1,44 @@
+header {
+  background: #353a3f;
+
+
+  .logo {
+    font-weight: bold;
+  }
+
+  .thinfont {
+    font-weight: normal;
+    color: #49afa8;
+
+  }
+
+  nav {
+    justify-self: right;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        float: left;
+
+        a {
+          padding: 1.5em;
+          // text-transform: uppercase;
+          font-size: .8em;
+          color: #878787;
+          text-transform: capitalize;
+
+          &:hover {
+            color: #49afa8;
+            text-decoration: underline;
+            text-decoration-color: #878787;
+            width: 75%;
+
+          }
+        }
+      }
+    }
+  }
+}
